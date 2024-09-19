@@ -2,16 +2,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.example</groupId>
+	<artifactId>ServiceManagmentApp</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.3.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>homeprojects.servicedashboard</groupId>
+
+	<!--<groupId>homeprojects.servicedashboard</groupId>
 	<artifactId>servicemanager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>servicemanager</name>
+	<name>servicemanager</name>-->
 	<description>Dashboard to manage IT services</description>
 	<properties>
 		<java.version>17</java.version>
